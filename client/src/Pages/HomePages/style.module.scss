@@ -1,0 +1,15 @@
+.img {
+  background-image: url("../../assets/Success.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 474px;
+  height: 220px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
