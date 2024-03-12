@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+
+  Button {
+    font: 600 16px "Inter";
+    color: black;
+  }
+}

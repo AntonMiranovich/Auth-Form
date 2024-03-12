@@ -57,7 +57,12 @@ function RegPages() {
           Continue
         </Button>
 
-        <p style={{ textAlign: "end" }}>Not registered yet? Sign Up</p>
+        <p style={{ textAlign: "end" }}>
+          Not registered yet?{" "}
+          <Link style={{ font: '600 16px "Inter"' }} to={"/"}>
+            Sign In
+          </Link>
+        </p>
       </div>
     </>
   );

@@ -38,7 +38,10 @@ function AuthPages() {
           Continue
         </Button>
         <p style={{ textAlign: "end" }}>
-          <Link to={"/reg"}>Not registered yet? Sign Up</Link>
+          Not registered yet?{' '}
+          <Link style={{ font: '600 16px "Inter"' }} to={"/reg"}>
+            Sign Up
+          </Link>
         </p>
       </div>
     </>
